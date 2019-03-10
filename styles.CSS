@@ -3,6 +3,10 @@ body{
   margin: 0px;
   padding: 0px;
 }
- h1,h2{
+ h1{
    text-align: center;
+ }
+ h2{
+   text-align: left;
+
  }
