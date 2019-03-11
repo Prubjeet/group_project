@@ -5,9 +5,12 @@ body{
 }
  h1{
    text-align: center;
+     background-color: rgba(255, 0, 0, 0.5);
  }
  h2{
    text-align: left;
-  color: rgb(0, 0, 255);
-  font-family: sans-serif;
- }
+  color: rgb(65,75,86);
+  font-family: century gothic;
+  font-size: 1.5em;
+  background-color: rgba(255, 0, 0, 0.5);
+}
