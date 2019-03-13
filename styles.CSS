@@ -86,3 +86,8 @@ ul li ul li{
   clear: both;
   width: 100%;
 }
+
+.animaton-container {
+  width: 100rem;
+  height: 30rem;
+}
