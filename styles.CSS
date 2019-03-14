@@ -14,6 +14,11 @@ body{
   font-size: 1.5em;
   background-color: rgba(255, 0, 0, 0.5);
 }
+h3 {
+  font-size: 1.4em;
+  float: right;
+  padding-right: 17.6rem;
+}
 a {
   text-decoration: none;
 }
@@ -21,10 +26,14 @@ nav {
   font-family: century gothic;
   font-size: 2em;
   width: 100%;
+  float: left;
+padding-left: 0.5rem;
+display: block;
+  background: purple;
 }
 li {
   color: #fff;
-  background: darkorange;
+  background: purple;
   display: block;
   float:left;
   padding: 1rem;
@@ -37,7 +46,7 @@ li a {
 }
 
 ul li ul {
-  background: orange:
+  background: purple:
   visibility: hidden;
   opacity: 0;
   min-width: 5rem;
@@ -49,7 +58,7 @@ ul li ul {
 }
 
 ul {
-  background: darkorange;
+  background: purple;
   list-style: none;
   margin: 0;
   padding-left: 0;
@@ -64,7 +73,7 @@ li:focus-within a {
   outline: none;
 }
 ul li ul {
-  background: orange;
+  background: purple;
   visibility: hidden;
   opacity: 0;
   min-width: 5rem;
@@ -84,8 +93,8 @@ ul li ul:focus {
 }
 ul li ul li{
   clear: both;
-  width: 100%;
 }
+
 
 .animaton-container {
   width: 100rem;
