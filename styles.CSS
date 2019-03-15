@@ -2,22 +2,51 @@ body{
   font-family:century gothic;
   margin: 0px;
   padding: 0px;
+  background-color: #DCDCDC;
 }
+body, html {
+  height: 100%;
+  width: 100%;
+  background-image: url("images/diversebooks.jpg");
+
+
+  background-position:bottom;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-size: 100%;
+}
+
  h1{
    text-align: center;
-     background-color: rgba(255, 0, 0, 0.5);
+     background-color:#808080 ;
+     color: #FFFACD;
  }
  h2{
    text-align: left;
-  color: rgb(65,75,86);
+  color: #000000;
   font-family: century gothic;
   font-size: 1.5em;
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: #808080;
 }
 h3 {
   font-size: 1.4em;
   float: right;
   padding-right: 17.6rem;
+  color: #000000;
+}
+h4 {
+  font-size: 4em;
+  color: white;
+  font-weight:bolder;
+  font-style: italic;
+  text-shadow: 2px 2px 4px #FF0000;
+  text-align:center;
+  margin: auto;
+  line-height: 100px;
+  position: relative;
+  margin-top: 200px;
+  width: 70%;
+  left: 0;
 }
 a {
   text-decoration: none;
@@ -29,11 +58,11 @@ nav {
   float: left;
 padding-left: 0.5rem;
 display: block;
-  background: purple;
+  background: 	#FFFACD;
 }
 li {
-  color: #fff;
-  background: purple;
+  color: #000000;
+  background: 	#FFFACD;
   display: block;
   float:left;
   padding: 1rem;
@@ -42,11 +71,11 @@ li {
   transition-duration: 0.5s;
 }
 li a {
-  color: #fff;
+  color: 	#808080;
 }
 
 ul li ul {
-  background: purple:
+  background: 	#FFFACD:
   visibility: hidden;
   opacity: 0;
   min-width: 5rem;
@@ -58,7 +87,7 @@ ul li ul {
 }
 
 ul {
-  background: purple;
+  background:		#FFFACD;
   list-style: none;
   margin: 0;
   padding-left: 0;
@@ -66,14 +95,14 @@ ul {
 
 li:hover,
 li:focus-within {
-  background: red;
+  background: yellow;
   cursor: pointer;
 }
 li:focus-within a {
   outline: none;
 }
 ul li ul {
-  background: purple;
+  background: #FFFACD;
   visibility: hidden;
   opacity: 0;
   min-width: 5rem;
