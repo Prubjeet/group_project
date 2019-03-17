@@ -15,10 +15,7 @@ body{
 .HomeFire__image
 .NoughtsandCrosses__image
 .WINLTTWPAR__image {
-padding-left: 40px;
-width: 250px;
-length: 250px;
-
+position: absolute;
 }
 p {
   text-align: center;
