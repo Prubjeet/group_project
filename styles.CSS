@@ -16,6 +16,9 @@ body{
 .NoughtsandCrosses__image
 .WINLTTWPAR__image {
 padding-left: 40px;
+width: 250px;
+length: 250px;
+
 }
 p {
   text-align: center;
