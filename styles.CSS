@@ -9,6 +9,23 @@ body{
     background-image: url("images/diversebooks.jpg");
     background-size: cover;
 }
+
+.Natives__image
+.TheGoodImmigrant__image
+.ItsNotAbouttheBurqa__image
+.HomeFire__image
+.NoughtsandCrosses__image
+.WINLTTWPAR__image {
+position: absolute;
+}
+p {
+  text-align: center;
+  padding: 2rem;
+  float: right;
+margin: auto;
+font-size: 1.7rem;
+
+}
  h1{
    text-align: center;
      background-color:#808080 ;
