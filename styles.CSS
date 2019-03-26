@@ -9,14 +9,15 @@ body{
     background-size: cover;
 }
 
-}
+{
 .Natives__image
 .TheGoodImmigrant__image
 .ItsNotAbouttheBurqa__image
 .HomeFire__image
 .NoughtsandCrosses__image
-.WINLTTWPAR__image {
+.WINLTTWPAR__image 
 position: absolute;
+margin: auto;
 }
 p {
   text-align: center;
